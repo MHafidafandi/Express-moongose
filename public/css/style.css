@@ -1,0 +1,208 @@
+:root{
+    --pr-color:#173F5F;
+}
+body{
+    font-family: "Ubuntu",sans-serif;
+    background-color: #eaf2f8;
+}
+
+/* Navbar */
+
+.navbar{
+    height: 65px;
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+
+.nav-color{
+    background-color: var(--pr-color);
+    transition: all ease-in-out 0.2s;
+}
+.navbar-brand{
+    font-size: 20px;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    transition: all ease-in-out 0.2s;
+}
+
+.button:hover{
+    background-color:#fff;
+    transition: all ease-in-out 0.2s;
+    color: var(--pr-color);
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color:#fff;
+    text-decoration: none;
+    color: var(--pr-color);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.button-primary:hover{
+    color: #eaf2f8;
+    background-color: var(--pr-color);
+    transition: all ease-in-out 0.2s;
+}
+
+/* Hero Section */
+
+#hero{
+    background: linear-gradient(160deg, var(--pr-color),#000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    /* height: 100%; */
+    width: 800px;
+    z-index: 1;
+}
+
+.hero-tagline h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 72px;
+}
+.hero-tagline p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    width: 80%;
+}
+
+/* Berita section */
+
+#berita{
+    padding: 80px 0;
+}
+
+#berita h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.sub-title{
+    color:#000;
+    font-size: 18px;
+
+}
+.card-berita{
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+    background-color: #eaf2f8;
+}
+
+.card-berita:hover{
+    /* background: linear-gradient(10deg, var(--pr-color),#000); */
+    background-color: var(--pr-color);
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+#penelitian{
+    padding: 80px 0;
+    background: url(/img/unesabg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#penelitian h2{
+    font-size: 48px;
+    color: #eaf2f8;
+}
+
+#penelitian span{
+    color: #eaf2f8;
+}
+
+#penelitian .overlay{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 35px 10px;
+}
+.teliti{
+    color: #eaf2f8;
+    padding: 10px 4px;
+    height: auto;
+    background-attachment:fixed;
+}
+
+#contact{
+    height: 100vh;
+    padding: 80px 0;
+}
+#contact h3{
+   color: var(--pr-color);
+   font-size: 33px;
+}
+
+
+.kontak h6{
+    width: 332px;
+}
+
+.card-kontak{
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+#contact h2{
+    font-size: 48px;
+    color:var(--pr-color);
+}
+
+.button-contact{
+    width: 133px;
+    height: 40px;
+    background-color:var(--pr-color);
+    text-decoration: none;
+    color: #eaf2f8;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    transition: all ease-in-out 0.2s;
+}
+
+.formm{
+    height: 75px !important;
+    width: 485px;
+}
+
+#footer{
+    background-color: var(--pr-color);
+    height: 65px;
+    padding-top: 20px;
+    color: #eaf2f8;
+    text-decoration: none;
+    
+}
